@@ -1,0 +1,58 @@
+#heroContainer {
+  background-attachment: fixed;
+ background-size: contain;
+ background-position: center calc(50% - 130px);
+ text-align: center;
+ padding: 100px;
+ height: 200px;
+ color: #fff;
+ background-image: 
+   linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), url("https://pbs.twimg.com/media/EChKKIuU0AADQQV.jpg");
+ margin-bottom: 100px;
+ transition-duration: .5s;
+ text-shadow: 2px 2px rgba(0,0,20,0.5);
+ background-repeat: no-repeat;
+ font-size: 20px;
+ font-family: "Protest Revolution", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+
+ margin-bottom: 0;
+}
+
+#hidden{
+ color: transparent;
+ text-shadow: none;
+}
+
+#heroContainer:hover{
+ text-align: center;
+ padding: 100px;
+ height: 200px;
+ color: transparent;
+ background-image: url("https://p-bandai.com/img/us/p/m/N2553526001003_005.jpg");
+ background-size: cover;
+ background-position: center calc(50% - 20px);
+ transition-duration: .5s;
+ text-shadow: none;
+}
+
+#heroContainer:hover #hidden{
+ transition-duration: .5s;
+ color: white;
+ text-shadow: 2px 2px rgba(0,0,0,1);
+ background-attachment:fixed;
+ font-family: "Sixtyfour", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+ font-variation-settings:
+   "BLED" 0,
+   "SCAN" 1;
+}
+
+#hero{
+ margin: 0;
+ padding-top: 40px;
+ letter-spacing: 3px;
+}

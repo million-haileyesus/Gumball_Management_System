@@ -1,0 +1,29 @@
+nav {
+  background-color: gray;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: crimson;
+  padding-top: 0;
+  border: gray;
+  border-width: 20px;
+  border-style: solid;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(0,0,20,0.3);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}

@@ -1,0 +1,59 @@
+.content{
+  height: 100%;
+  width: 100%;
+  h2{
+    text-align: center;
+  }
+}
+
+#contact{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 20%;
+  height: auto;
+
+  background-color: #6C757D;
+  border-radius: 15px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: Left;
+  text-transform:uppercase;
+}
+
+input {
+  outline: none;
+  border: 0;
+  color: black;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  border: 2px black;
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+
+  width: 90%;
+  margin-left: 2.5%;
+  
+
+}
+input:hover {
+  background-color: #8c97a1;;
+}
+
+input[type=submit]{
+  width: auto;
+  margin: 0 auto;
+  padding:10px 30px;
+  background-color: #838f99 ;
+}

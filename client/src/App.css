@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#hdr{
+  padding-bottom: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#content{
+  width: 100%;
+  /* margin: 10% auto; */
+}
+
+#content h2{
+  font-size: 50px;
+}
+
+#twoSquares{
+  width: 100%;
+  height: auto;
+  /* margin-top: -100px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+.square{
+  padding:0;
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+  /* border: 2px solid black; */
+}
+
+#leftSquare{
+  background-color: #ced3d7;
+  margin:0;
+  color: #5e606c;
+  padding: 0;
+  /* margin-top: -100px; */
+  
+}
+
+#rightSquare{
+  /* display:inline-block; */
+  padding: 0;
+  margin:0;
+  background-color: #5e606c;
+  color: #ced3d7;
+}
+
+.squareContent{
+  width: 80%;
+  margin: 10% auto;
+}
+
+.squareContent h2{
+  text-align: center;
+  font-size: 38px;
+}
+
+
+#types{
+  width: 80%;
+  margin: 50px auto 0px auto;
+
+}
+form{
+
+  width: 40%;
+  margin: 50px auto 0 auto;
+
+}
+
+input[type=text]:hover {
+  background-color: #8c97a158;;
+}
+
+/* CSS */
+button[type=submit]{
+  --c: #fff;
+  /* text color */
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #df0703d3;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+button[type=submit]:hover,
+button[type=submit]:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+button[type=submit]:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
+
+button[type=submit] {
+
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10px 29%;
+  cursor: pointer;
+  padding: .1em .3em;
+  
+}
+
+thead tr th{
+  background-color: #1F2739;
+}
+
+.table-container {
+ width: 80%;
+ margin: 10px auto 0px auto;  
+ text-align: center;
+ color: #ced3d7;
+}

@@ -1,0 +1,56 @@
+nav{
+  /* padding-bottom: 50%; */
+}
+
+#about h2{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 26.4;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+#about {
+    padding: 20px;
+    /* margin-top: -45%; */
+    text-align: left;
+    overflow: auto;
+  }
+
+  #about img{
+    width: 40%;
+    float: left;
+    margin-left: 45%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+#aboutText{
+  position: absolute;
+  padding: 0;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 10%;
+
+  border-radius: 15px;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#aboutText p {
+  font-size: 20px; 
+  margin: 15px;
+  font-family: "Gill Sans", sans-serif;
+  font-feature-settings: "smcp", "zero";
+}
