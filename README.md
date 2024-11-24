@@ -1,3 +1,3 @@
 # Web Programming Project
 
-A Gundam inventory managment system full-stack web application using React.
+A Gundam inventory management system full-stack web application using React.
